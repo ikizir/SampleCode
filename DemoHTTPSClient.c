@@ -11,8 +11,8 @@
 #define DONT_USE_IO_CACHE
 static void fncOnCHTTPRequestToNewspaperCompleted(TCHttp *chttp);
 
-#define HOST  "https://www.milenio.com" //"https://clarin.com"  // "https://www.aa.com.tr"
-#define CRAWLER_USER_AGENT "PiplBot"
+#define HOST "https://www.aa.com.tr"
+#define CRAWLER_USER_AGENT "XXXXXXXBot"
 
 void ParseRobotsTxtFile(const char *Txt, unsigned TxtLen)
 {
